@@ -5,7 +5,7 @@
          stopOnFailure="false"
          >
     <testsuites>
-        <testsuite name="Testingw">
+        <testsuite name="Testing">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

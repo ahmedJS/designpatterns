@@ -1,1 +1,1 @@
-{"version":1,"defects":{"ObserverPatternTest::testObserverDesignPattern":5},"times":{"TestingTest::testFunning":0.002,"ObserverPatternTest::testObserverDesignPattern":0.019}}
+{"version":1,"defects":{"ObserverPatternTest::testObserverDesignPattern":5,"Warning":6},"times":{"TestingTest::testFunning":0.001,"ObserverPatternTest::testObserverDesignPattern":0.005,"Warning":0.001}}
