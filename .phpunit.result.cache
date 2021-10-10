@@ -1,1 +1,1 @@
-{"version":1,"defects":{"ObserverPatternTest::testObserverDesignPattern":5,"Warning":6},"times":{"TestingTest::testFunning":0.001,"ObserverPatternTest::testObserverDesignPattern":0.005,"Warning":0.001}}
+{"version":1,"defects":{"ObserverPatternTest::testObserverDesignPattern":5,"Warning":6,"DecoratorPatternTest::testGetPremiumPrice":3},"times":{"TestingTest::testFunning":0.001,"ObserverPatternTest::testObserverDesignPattern":0.001,"Warning":0.001,"DecoratorPatternTest::testGetPremiumPrice":0.005}}
