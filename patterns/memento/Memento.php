@@ -1,8 +1,15 @@
 <?php
+namespace Patterns\memento;
 
 class Memento {
     private String $state;
 
-    function getState(){}
-    function addState(){}
+    function __construct($state)
+    {
+        $this->state = $state;
+    }
+
+    function getState(){
+        return $this->state;
+    }
 }

@@ -1,0 +1,12 @@
+run a bunch of testing like
+
+* test return by reference when calling command
+* refactor it to get rid of " this->commands calling subtituating it by this->command without s using
+the _call magic method , except in invoker construction ***
+
+* seeking of the naming of calling properties than the real and _call magic method
+
+*prepare null object when use the pattern in useCase to preventing errors may occure**** future in a development
+
+
+*write tests on this pattern make in abstraction in 9-3-2022
