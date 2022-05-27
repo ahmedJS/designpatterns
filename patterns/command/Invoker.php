@@ -14,11 +14,16 @@ class Invoker{
 
     function __construct(ICommand $command)
     {
-        $this->_commands[] = $command;
+        $this->command = [$command];
+    }
+
+    function do_operation () {
+        $lastCommand = $this->excecuteCommand(end($this->command));
     }
     // return by reference
     // this is middleware-like around commands proprty filtering it before return it
     // in order to prevent errors
+
     function &__get($property){
         if($property == "command") {
             if(!isset($this->_commands)){
@@ -29,7 +34,7 @@ class Invoker{
         }
     }
 
-    function excecuteCommand(ICommand $command){
+    private function excecuteCommand(ICommand $command){
 
         // queue the command in commands variable
         $this->command[] = $command;

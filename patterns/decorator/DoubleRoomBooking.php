@@ -1,8 +1,9 @@
 <?php
 
+namespace Patterns\decorator;
+
 use PhpParser\Builder\Namespace_;
 
-namespace Patterns\decorator;
 
 class DoubleRoomBooking implements booking {
     const PRICE = 30;

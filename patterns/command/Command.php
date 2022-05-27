@@ -11,6 +11,9 @@ class Command implements ICommand{
     function excecute(){
         return $this->state = $this->state + 1;
     }
+    function getState() : int {
+        return $this->state;
+    }
     function undo(){
         return $this->state = $this->state - 1;
     }
